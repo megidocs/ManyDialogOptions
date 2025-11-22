@@ -15,7 +15,9 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingEnd="8dp">
             <!-- 1 -->
             <Button
                 android:id="@+id/classicAlertDialogButton"
@@ -161,7 +163,10 @@
         <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+            android:layout_marginStart="16dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:paddingEnd="8dp">
             <!-- 21 -->
             <Button
                 android:id="@+id/materialMultiChoiceDialogButton"
